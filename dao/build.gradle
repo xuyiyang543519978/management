@@ -1,0 +1,11 @@
+repositories {
+    mavenLocal()
+}
+dependencies{
+    compile "com.xuyiyang.common:utils:${common_version}"
+    compile "com.xuyiyang.common:domain:${common_version}"
+    //mybatis
+    compile "org.mybatis:mybatis:${mybatis_version}"
+    //mysql
+    compile "mysql:mysql-connector-java:${mysql_version}"
+}

@@ -1,0 +1,8 @@
+repositories {
+    mavenLocal()
+}
+dependencies {
+    compile project(":dao")
+    //spring -mybatis
+    compile "org.mybatis:mybatis-spring:${spring_mybatis_version}"
+}
